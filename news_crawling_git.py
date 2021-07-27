@@ -65,7 +65,7 @@ def Crawling(keyword, date, date2):
 # %%
 # company 파일 반입
 import pandas as pd
-comp_live = pd.read_excel("data_company_live_15e11.xlsx", engine = 'openpyxl')
+comp_live = pd.read_excel("data_company_2018.xlsx", engine = 'openpyxl')
 # %%
 comp_list = comp_live[['회사명']][1775:]
 comp_list.reset_index(inplace = True)
